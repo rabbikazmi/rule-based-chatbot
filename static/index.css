@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #83a4d4, #b6fbff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    padding: 30px;
+    text-align: center;
+}
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+.chat-box {
+    height: 350px;
+    overflow-y: auto;
+    border: 2px solid #e3e3e3;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    text-align: left;
+}
+.message {
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 15px;
+    max-width: 80%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    animation: fadeIn 0.5s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.user-message {
+    background-color: #6c5ce7;
+    color: white;
+    margin-left: auto;
+    border-bottom-right-radius: 5px;
+}
+.bot-message {
+    background-color: #a8e6cf;
+    color: #2c3e50;
+    margin-right: auto;
+    border-bottom-left-radius: 5px;
+}
+.input-container {
+    display: flex;
+    gap: 15px;
+    padding: 0 20px;
+}
+input[type="text"] {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+input[type="text"]:focus {
+    outline: none;
+    border-color: #6c5ce7;
+    box-shadow: 0 0 10px rgba(108, 92, 231, 0.2);
+}
+button {
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #6c5ce7, #a8e6cf);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
+}
