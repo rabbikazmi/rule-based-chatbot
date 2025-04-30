@@ -1,9 +1,11 @@
 
 # 🌟 HealthShield
 
-
+![image](https://github.com/user-attachments/assets/2796f5dd-2403-45fe-8c0e-37407a56eeef)
 
 A simple rule-based chatbot built using Flask to answer questions related to vaccines — including safety, side effects, schedules, and more.
+![image](https://github.com/user-attachments/assets/3b82315e-8dd8-4e13-8214-d7848b2cb75e)
+
 
 # Prerequisites
 
@@ -60,6 +62,9 @@ static/ : Contains CSS and static files.
 python app.py
 
 The app will start locally, and click on the url appearing in the terminal.
+
+![image](https://github.com/user-attachments/assets/7508cb4e-a931-4863-9aec-ccc3373f1b8e)
+
 
 *Visit the URL in your browser to start chatting!*
 
