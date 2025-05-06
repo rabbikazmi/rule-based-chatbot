@@ -1,5 +1,5 @@
 
-# 🌟 HealthShield
+# 🌟 "HealthShield" - A Rule-Based Vaccine Chatbot
 
 ![image](https://github.com/user-attachments/assets/2796f5dd-2403-45fe-8c0e-37407a56eeef)
 
